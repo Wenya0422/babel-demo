@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
+  devtool: 'source-map',
   entry: ["@babel/polyfill", './js/index.js'],
   output: {
     path: path.resolve(__dirname + '/webpack_dist'),

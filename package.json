@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel js/index.js --out-file js/bunder.js",
     "build:dir": "babel js --out-dir dist",
+    "build:min": "babel js --out-dir dist -s",
     "build:webpack": "webpack"
   },
   "author": "",
